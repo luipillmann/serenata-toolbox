@@ -9,7 +9,8 @@ from serenata_toolbox.datasets.contextmanager import status_message
 
 class RemoteDatasets:
 
-    CONFIG = 'config.ini'
+    # Issue here! (../)
+    CONFIG = '../config.ini'
 
     def __init__(self):
         self.credentials = None
